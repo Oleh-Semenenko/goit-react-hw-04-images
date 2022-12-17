@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 
 Modal.setAppElement('#root');
 
-
 const ImageModal = ({ url, description, modalIsOpen, closeModal }) => {
   return (
     <Modal
